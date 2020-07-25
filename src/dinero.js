@@ -952,7 +952,7 @@ const Dinero = options => {
      * @return {Object}
      */
     toJSON() {
-      return this.toObject()
+      return this.toRoundedUnit(2)
     }
   }
 }
